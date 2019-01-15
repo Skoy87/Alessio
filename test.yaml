@@ -2,3 +2,11 @@ project: core
 product: core
 repo: core-infra
 version: 0.1.0
+
+ecosystems:
+  dev:
+    - infradev
+    - dev
+  prd:
+    - infraprd
+    - prd
